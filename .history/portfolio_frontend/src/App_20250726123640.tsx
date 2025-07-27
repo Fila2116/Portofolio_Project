@@ -1,10 +1,12 @@
-
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './App.css'
 import ProfileSection from './components/ProfileSection'
 import ProjectSection from './components/ProjectSection'
 
 function App() {
-  
+  const [count, setCount] = useState(0)
 
   return (
     <>
