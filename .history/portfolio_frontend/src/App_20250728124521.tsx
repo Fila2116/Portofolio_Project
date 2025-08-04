@@ -3,6 +3,7 @@ import './App.css'
 import ProfileSection from './components/ProfileSection'
 import ProjectSection from './components/ProjectSection'
 
+
 function App() {
   
 
@@ -12,6 +13,7 @@ function App() {
         <div className="max-w-2xl w-full" >
            <ProfileSection />
            <ProjectSection />
+      
         </div>
       </div>
     </>
